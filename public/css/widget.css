@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'SignikaSemibold';
+	src: url('../font/signika-semibold.eot');
+	src: url('../font/signika-semibold.eot?#iefix') format('embedded-opentype'),
+		 url('../font/signika-semibold.woff') format('woff'),
+		 url('../font/signika-semibold.ttf') format('truetype'),
+		 url('../font/signika-semibold.svg#signikasemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: SignikaSemibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFF;
+}
+
+.widget {
+	text-shadow: none;
+	width: 550px;
+	height: 293px;
+}
+
+h1 {
+	margin: 0;
+	background: #1E3133 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAMAAACKJ8VmAAAAHlBMVEVebYFYZnlebYFebYFebYFca39ebYEAAABYZnhebYHg/i4zAAAACHRSTlNV7IiZd61EAPOJbKMAAAA9SURBVHjaxcwrEgAgDEPBQikh978w34EBVccTESsiyoTMWUaiCR9hk7hFEIfQwpJi7HLlFwBnPPL9WR+wCiyXCey8KRp2AAAAAElFTkSuQmCC) no-repeat 30px 15px;
+	font-size: 18px;
+	padding: 10px 25px 10px 60px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.main {
+	font-size: 1em;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background: #30d0BA;
+	height: 245px;
+	overflow-y: scroll;
+}
+
+ul li {
+	margin-bottom: 1px;
+}
+
+ul li.template {
+	display: none;
+}
+
+ul li a {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+	background-color: #00BBA7;
+	padding: 10px 25px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+ul li a:hover {
+	background-color: #06ccb7;
+}
+
+span.title,
+span.location {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.6);
+}
+
+span.num {
+	width: 28px;
+	height: 28px;
+	float: left;
+	border-radius: 15px;
+	background: #36af9e;
+	text-align: center;
+	margin-right: 7px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+span.title {
+	width: 290px;
+	float: left;
+}
+
+span.location {
+	width: 135px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: right;
+	text-align: right;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAASCAMAAABYd88+AAAAJFBMVEUbc2cbc2cbc2cbc2cbc2cbc2cbc2cbc2cbc2cbc2cAAAAbc2e3islMAAAADHRSTlNNdxEiPG8JXjNmAICu45CaAAAAW0lEQVR42lWMUQ7AIAhD2XTCHve/76SaJfLR9lGCAeGZHjMY403NOyYoi7CQaxPmpVA7N/Wg6wOOs/MBT+55MFSpmICv7BS0BU2A70JwF9yCkky5ZFzX+IHeZR/QPggjWJrdawAAAABJRU5ErkJggg==) no-repeat right 4px;
+}

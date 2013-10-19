@@ -1,0 +1,152 @@
+html {
+	background: #EAEAEA;
+	font-size: 18px;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #FFF;
+	color: #222;
+	text-shadow: 0 1px 0 #EAEAEA;
+	padding: 25px;
+	width: 930px;
+	margin-bottom: 150px;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 24px;
+	margin: 0 0 15px;
+}
+
+h2 {
+	font-size: 20px;
+	margin: 35px 0 15px;
+}
+
+p {
+	line-height: 1.5em;
+	margin: 15px 0;
+}
+
+p em {
+	display: inline-block;
+	background: #E9EBF1;
+	padding: 0 5px;
+	border-radius: 5px;
+	font-style: italic;
+}
+
+p a:link, p a:visited {
+	color: #66C;
+	text-decoration: none;
+	border-bottom: 2px dotted #66C;
+}
+
+code, pre {
+	font-family: Consolas, monaco, monospace;
+	text-shadow: none;
+}
+
+code.method, code.uri {
+	font-size: 0.9em;
+	display: inline-block;
+	background: #999;
+	padding: 6px 7px 5px;
+	color: #FFF;
+	border-radius: 5px;
+}
+
+code.method {
+	background: #69C;
+}
+
+table {
+	width: 100%;
+	margin: 15px 0;
+}
+
+table th,
+table td {
+	background: #E9EBF1;
+	padding: 8px 10px;
+	text-align: left;
+}
+
+table th {
+	background: #D4D5D9;
+	color: #999;
+	padding: 6px 10px;
+}
+
+table th:first-child {
+	border-top-left-radius: 6px;
+	border-right: 1px solid #BBB;
+}
+
+table th:last-child {
+	border-top-right-radius: 6px;
+}
+
+table td:first-child {
+	border-right: 1px solid #CCC;
+}
+
+table tr:last-child td:first-child {
+	border-bottom-left-radius: 6px;
+}
+
+table tr:last-child td:last-child {
+	border-bottom-right-radius: 6px;
+}
+
+pre {
+	font-size: 0.8em;
+	color: #393;
+}
+
+pre em {
+	color: #BBB;
+}
+
+pre b {
+	color: #F69;
+}
+
+.widget {
+	width: 550px;
+	height: 293px;
+}
+
+footer {
+	background: #EAEAEA;
+	width: 930px;
+	padding: 20px 25px;
+	margin: 25px 0 -25px -25px;
+	text-shadow: none;
+	color: #999;
+	font-size: 0.7em;
+}
+
+footer .copyright {
+	float: left;
+}
+
+footer .links {
+	float: right;
+}
+
+footer .links li {
+	float: left;
+	margin-left: 10px;
+}
+
+footer .links a:link,
+footer .links a:visited {
+	color: #66C;
+	text-decoration: none;
+	border-bottom: 1px dotted #66C;
+}

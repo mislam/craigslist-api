@@ -11,7 +11,12 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
+Route::get('/', function() {
+	return View::make('demo');
 });
+
+Route::get('widget', function() {
+	return View::make('widget');
+});
+
+Route::get('api/{city}/{category}/{page}', 'CraigslistController@getSearchResults');
