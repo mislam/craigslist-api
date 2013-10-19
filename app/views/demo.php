@@ -10,7 +10,7 @@
 <body>
 	<div class="wrapper">
 		<h1>Craigslist REST API</h1>
-		<p>The purpose of this API is to query data from <a href="http://www.craigslist.org/" target="_blank">Craigslist</a> so that developers can use then in their app. The API itself is written with <a href="http://laravel.com/" target="_blank">Laravel</a> PHP framework.</p>
+		<p>The purpose of this API is to query data from <a href="http://www.craigslist.org/" target="_blank">Craigslist</a> so that developers can use them in their app. The API itself is written with <a href="http://laravel.com/" target="_blank">Laravel</a> PHP framework.</p>
 
 		<h2>Usage</h2>
 		<p>Send a <em>GET</em> request to the resource as specified in the following format:</p>

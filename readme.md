@@ -1,7 +1,7 @@
 Craigslist REST API
 ===================
 
-The purpose of this API is to query data from [Craigslist] [craigslist] so that developers can use then in their app. The API itself is written with [Laravel] [laravel] PHP framework.
+The purpose of this API is to query data from [Craigslist] [craigslist] so that developers can use them in their app. The API itself is written with [Laravel] [laravel] PHP framework.
 
 Demo
 ----
